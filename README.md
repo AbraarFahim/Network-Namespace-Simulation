@@ -1,5 +1,6 @@
 # Network-Namespace-Simulation
-This is the simulation document and the architecture.
+This is the simulation document and the architecture. /
+
 Step 1: Create Network Bridges 
 Set up br0 and br1
 #Sudo ip link add br0 type bridge
