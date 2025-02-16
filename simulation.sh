@@ -87,8 +87,8 @@ sudo iptables --append FORWARD --out-interface br1 --jump ACCEPT
 
 echo "Test connectivity from ns1 to ns2..."
 
-ip netns exec ns1 ping 10.12.0.2 -c 3 
+sudo ip netns exec ns1 ping 10.12.0.2 -c 3 
 
 echo "Test connectivity from ns2 to ns1..."
 
-ip netns exec ns1 ping 10.12.0.2 -c 3 
+sudo ip netns exec ns1 ping 10.12.0.2 -c 3 
